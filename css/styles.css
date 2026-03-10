@@ -209,6 +209,7 @@ h2 i {
 }
 
 /* Navigation (HW8) */
+/* Credit: navigation CSS (display-based layout) adapted from the JSFiddle example in the lecture slides */
 nav.display {
     text-align: center;
     background: #1E293B;
@@ -238,6 +239,7 @@ nav.display {
 }
 
 /* Work section background with gradient overlay */
+/* Credit: gradient + image overlay technique adapted from the JSFiddle example in the lecture slides */
 #work {
     background: linear-gradient(rgba(15,23,42,0.6), rgba(15,23,42,0.6)),
                 url('../images/background.png') no-repeat center/cover;
