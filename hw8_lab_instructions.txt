@@ -4,6 +4,53 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 
 1.	Add a navigation menu to your resume site.
 			      a.	For this HW add a navigation menu without using a list. An example of this is can be found in the lecture material. 
+EX 1a html: <nav class="display">
+  <a href="#">About</a>
+  <a href="#">Work</a>
+  <a href="#">Education</a>
+  <a href="#">Contact</a>
+</nav>
+
+EX 1a css:
+
+/* General styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+nav {
+  background: purple;
+  margin-bottom: 5px;
+}
+a {
+  background: lightblue;
+}
+
+/* Navigation using 'display' */
+.display {
+  text-align: center;
+  
+  /* To reduce the space between the elements set the font size to zero in the parent element. */
+  
+  /* font-size: 0; */
+  
+}
+.display a {
+  padding: 10px;
+  display: inline-block;
+  
+  /* This extra space affects how much total space the element takes up. Let's say I want to make four equal elements, by setting the links to a width of 25%. Even though 25 x 4 = 100%, the last item gets pushed down to the next line because there's not enough space for it. */  
+  
+  /* width: 25%; */
+  
+  
+  
+  /* Because font size is also inherited, you'll have to reset the font size in the child element itself. */
+  
+  /* font-size: 16px; */
+}
 
             b. Each item in the menu should link to a specific section of your resume.
 
@@ -14,10 +61,69 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 2. Add some font icons to your footer.
             a. Use fontawesome to add some font icons to your contact info. Some examples are shown in the lecture material..
 
+2a EX html: 
+
+<head>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<footer>
+  <div class="contact-info">
+    <a href="mailto:email@example.com">email@example.com</a>
+    <a href="http://yourwebsite.com">yourwebsite.com</a>
+    <a href="">Twitter</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Facebook</a>
+  </div>
+</footer>
+
+2a EX css:
+
+footer {
+  text-align: center;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
 3. Add a background image to one of your resume sections.
             a. Make use of the RGB and Alpha transparency to add a gradiant to your image. Some examples are shown in the lecture material.  
 
+3a EX html:
 
+<div class="image-bg">
+  <div class="alpha-bg">
+    <p>They don’t want us to eat. The other day the grass was brown, now it’s green because I ain’t give up. Never surrender. The key is to enjoy life, because they don’t want you to enjoy life. I promise you, they don’t want you to jetski, they don’t want you to smile. We the best.</p>
+  </div>
+</div>
+
+3a EX css:
+
+.image-bg {
+  width: 400px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  
+  /* sets the background image */
+  /* background: url(https://unsplash.it/400/300) no-repeat; */
+  
+  /* sets gradient and image */
+  /* background: linear-gradient(rgba(70,130,180, 0.5),
+                 rgba(70,130,180, 0.5)),
+                 url(https://unsplash.it/400/300) no-repeat; */
+}
+
+.alpha-bg {
+  padding: 20px;
+  height: 100%;
+  /* color: #eeeeee; */
+  
+  /* sets the color with alpha transparency */
+  /* background: rgba(70,130,180, 0.5); */
+  
+}
  
  
 

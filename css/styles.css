@@ -192,3 +192,40 @@ h3 {
 p {
     color: #94A3B8;
 }
+
+/* Navigation (HW8) */
+nav.display {
+    text-align: center;
+    background: #1E293B;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.display a {
+    padding: 10px 14px;
+    display: inline-block;
+    color: #38BDF8;
+    text-decoration: none;
+    font-weight: 600;
+}
+.display a:hover {
+    color: #F1F5F9;
+    text-decoration: underline;
+}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Work section background with gradient overlay */
+#work {
+    background: linear-gradient(rgba(15,23,42,0.6), rgba(15,23,42,0.6)),
+                url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 8px;
+    color: #F1F5F9;
+}
+
+.contact-info i {
+    margin-right: 8px;
+}
