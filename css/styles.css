@@ -251,3 +251,24 @@ nav.display {
 .contact-info i {
     margin-right: 8px;
 }
+
+/* Improve contrast for work experience: cards with border and text-shadow */
+#work .job-item {
+    background: rgba(0,0,0,0.35);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 8px;
+    padding: 14px;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 24px rgba(2,6,23,0.6);
+}
+
+#work .job-item h3,
+#work .job-item p,
+#work .job-item ul {
+    text-shadow: 0 3px 10px rgba(0,0,0,0.75);
+}
+
+/* lift the narrow column text for separation */
+#work .column-narrow {
+    background: transparent;
+}
