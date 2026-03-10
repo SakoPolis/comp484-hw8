@@ -193,6 +193,21 @@ p {
     color: #94A3B8;
 }
 
+/* h2 icons styling to visually match h2 font weight/color */
+h2 i {
+    margin-right: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 0.95em;
+    /* gradient fill to visually match the Honk font styling */
+    background: linear-gradient(90deg, #ffd166 0%, #ff6bcb 60%, #ffb86b 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    /* keep spacing consistent with Honk font visuals */
+}
+
 /* Navigation (HW8) */
 nav.display {
     text-align: center;
@@ -216,10 +231,16 @@ nav.display {
     z-index: 1000;
 }
 
+/* icon spacing in nav */
+.display a i {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
 /* Work section background with gradient overlay */
 #work {
     background: linear-gradient(rgba(15,23,42,0.6), rgba(15,23,42,0.6)),
-                url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
+                url('../images/background.png') no-repeat center/cover;
     margin: 20px;
     padding: 25px;
     border-radius: 8px;
