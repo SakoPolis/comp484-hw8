@@ -2,71 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- prevent scraping -->
+    <meta http-equiv="X-Robots-Tag" content="noarchive, noimageindex">
+    <meta name="robots" content="noarchive, noimageindex, nosnippet">
+    <meta name="googlebot" content="noarchive">
+    <meta name="bingbot" content="noarchive">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk:MORF@15&family=Nabla&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Resume</title>
+    <title>SakoPolis | Resume</title>
+    <!-- Cybersecurity 101 don't put your full name on github -->
+     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- // Intro -->
-    <header>
-        <img src="your-picture.jpg" alt="Your Name">
-        <h1>Your Name</h1>
-        <h2>Job title or tagline</h2>
-        <p>Add your profile summary here. You can have several paragraphs or add links.</p>
-    </header>
+<header>
+    <div class="content-wrap">
+
+        <div class="column-narrow">
+            <img class="profile-img column-narrow" src="images/avatar.png" alt="Sako">
+        </div>
+
+        <div class="column-wide">
+            <h1>SakoPolis</h1>
+            <h2>Software Engineer</h2>
+            <ul>
+                <li><a href="https://github.com/CS380-Group/CS380-Registration-Project">https://github.com/CS380-Group/CS380-Registration-Project</a></li>
+                <li><a href="https://github.com/skill-swap490/skill-swap490">https://github.com/skill-swap490/skill-swap490</a></li>
+                <li><a href="https://github.com/SakoPolis/484-Project-1">https://github.com/SakoPolis/484-Project-1</a></li>
+            </ul>
+        </div>
+
+    </div>
+</header>
     
     <main> 
         <!-- // Work Experience -->
         <section>
+                <div class="content-wrap">
             <h2>Work Experience</h2>
 
             <!-- Job Details: copy this whole block to add more jobs -->
-            <h3>Job title</h3>
-            <p>Company Name</p>
-            <p>Date at job</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Job summary.</p>
-            
-            <!-- This list can be deleted if you don't want to use it. -->
-            <p>Optional list:</p>
-            <ul>
-                <li>Created...</li>
-                <li>Lead...</li>
-                <li>Responsible for</li>
-            </ul>
+         <div class="job-item">
+
+    <div class="column-narrow">
+        <h3>Scrum Master</h3>
+        <p>CS 380 Pottery Times Registration Project</p>
+        <p>June-August 2025</p>
+    </div>
+
+    <div class="column-wide">
+        <p>Coordinated the Scrum board on my team's github for my Software Engineering class. 
+        Taught classmates git command line. 
+        Was temporarily accountable for connecting frontend to database for some reason.</p>
+
+        <p>Accomplishments:</p>
+        <ul>
+            <li>Created jsx files and frontend branch</li>
+            <li>Lead Frontend Team and Scrum meetings</li>
+            <li>Responsible for Presenting concepts and progression.</li>
+        </ul>
+    </div>
+
+</div>
             <!-- end of Job Details block. -->
-            
+
+                        <!-- Job Details: copy this whole block to add more jobs -->
+         <div class="job-item">
+
+    <div class="column-narrow">
+        <h3>Agile Coach</h3>
+        <p>CS 490 SkillSwap Project</p>
+        <p>Sept 2025-Now</p>
+    </div>
+
+    <div class="column-wide">
+        <p>Coordinated the Agile board on my team's github for my Senior Design class. 
+        Taught classmates git command line and github permissions. 
+        Succesfully maintained team composition throughout two semesters.</p>
+
+        <p>Accomplishments:</p>
+        <ul>
+            <li>Created user experience</li>
+            <li>Lead Frontend Team and Agile meetings</li>
+            <li>Responsible for Presenting Functional Requirements Document.</li>
+        </ul>
+    </div>
+
+</div>
+            <!-- end of Job Details block. -->
+
+                        <!-- Job Details: copy this whole block to add more jobs -->
+          <div class="job-item">
+
+    <div class="column-narrow">
+        <h3>Project Owner</h3>
+        <p>CS 484 Project 1 Deprecated Html</p>
+        <p>February 2026</p>
+    </div>
+
+    <div class="column-wide">
+        <p>I made my project a static website about deprecated html elements and attributes. 
+        I also included modern rewrites of each deprecated tag.</p>
+
+        <p>Accomplishments:</p>
+        <ul>
+            <li>Created 5 html pages.</li>
+            <li>Lead an overhaul of index.html and styles.css.</li>
+            <li>Responsible for publishing to github pages.</li>
+        </ul>
+    </div>
+
+</div>
+            <!-- end of Job Details block. -->
+            </div>
         </section>
 
 
         <!-- // Education -->
         <section>
+                <div class="content-wrap">
             <h2>Education</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
+            <h3>California State University, Northridge</h3>
+            <p>Bachelor of Science in Computer Science</p>
             
             <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
+            <p>Took a series of FANG-like programming and software engineering courses. Solved Harvard tier and above problems while coordinating study groups with classmates in several STEM related subjects. Performed research in a wide array of fields.</p>
             <!-- End of school details. -->
+             </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
     <footer>
+         <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
         
         <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:email@example.com">email@example.com</a>
-            <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
-            <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="#" target="_blank">Facebook</a>
+        <div class="contact-info">
+            <a href="mailto:40133288+SakoPolis@users.noreply.github.com">40133288+SakoPolis@users.noreply.github.com</a>
+            <a href="https://sakopolis.github.io/comp484-hw6/" target="_blank">sakopolis.github.io/comp484-hw6/</a>
         </div>
 
-        <p>Copyright 2017 by Your Name</p>
+        <p>Copyright 2026 by SakoPolis</p>
+        </div>
     </footer>
 </body>
 </html>
