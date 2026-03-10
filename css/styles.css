@@ -193,22 +193,21 @@ p {
     color: #94A3B8;
 }
 
-/* h2 icons styling to visually match h2 font weight/color */
+/* h2 icons styling to match h2 font */
 h2 i {
     margin-right: 10px;
     vertical-align: middle;
     display: inline-block;
     font-size: 0.95em;
-    /* gradient fill to visually match the Honk font styling */
+    /* gradient match the Honk font  */
     background: linear-gradient(90deg, #ffd166 0%, #ff6bcb 60%, #ffb86b 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    /* keep spacing consistent with Honk font visuals */
 }
 
-/* Navigation (HW8) */
+/* Navbar */
 /* Credit: navigation CSS (display-based layout) adapted from the JSFiddle example in the lecture slides */
 nav.display {
     text-align: center;
@@ -241,7 +240,7 @@ nav.display {
 /* Work section background with gradient overlay */
 /* Credit: gradient + image overlay technique adapted from the JSFiddle example in the lecture slides */
 #work {
-    background: linear-gradient(rgba(15,23,42,0.6), rgba(15,23,42,0.6)),
+    background: linear-gradient(rgba(25,43,12,0.99), rgba(45,23,12,0.7)),
                 url('../images/background.png') no-repeat center/cover;
     margin: 20px;
     padding: 25px;
